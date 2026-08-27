@@ -24,6 +24,10 @@ A public collection of small, interactive defensive cybersecurity utilities. Eac
 
 The projects target practical defensive searches such as HTTP security headers checker, TLS certificate checker, DNS security checker, JWT decoder, phishing URL analyzer, secret scanner, SHA-256 file checker, failed-login analyzer, OSV dependency scanner, CORS checker, CIDR calculator, and security.txt checker. They are intentionally small enough to inspect end to end and safe enough to run locally.
 
+## Market-readiness documentation
+
+The collection’s acceptance criteria, trust model, package contracts, release checklist, and residual-risk guidance are summarized in [MARKET_READINESS.md](MARKET_READINESS.md). Each standalone repository also contains its own [API_CONTRACT.md](https://github.com/Oscar-Opemba/http-security-headers-checker/blob/main/API_CONTRACT.md), release checklist, changelog, and hardening guide.
+
 ## Safety boundary
 
 This collection does not provide payload generation, persistence, credential attacks, exploit delivery, evasion, process injection, port scanning, domain fronting, or automated interaction with third-party targets. Network tools make one bounded request to the exact target entered by the user and require authorization. Offline tools keep their inputs local.
